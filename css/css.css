@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.game_title{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+}
+.ganme_nav {
+	width: 1000px;
+	height: 100px;
+	background-color: #FFB;
+	margin: 0 auto;
+	border:1px solid black;
+}
+.ganme_nav ul::after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.ganme_nav ul li{
+	float: left;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.ganme_nav .time{
+	width: 397px;
+	border-right: 0px;
+}
+input{
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 15px;
+}
+.game-snav .boom_num ,
+.game-snav .new-game{
+	float: left;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+.game-snav .new-game span{
+	display: block;
+	width: 120px;
+	height: 30px;
+	background-color: orange;
+	text-align: center;
+	line-height: 30px;
+	border:1px solid black;
+	margin: 9px auto;
+
+}
+.game-main{
+	width: 1000px;
+	height: 450px;
+	background-color: #FFB;
+	border:1px solid black;
+	border-top: 0px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.game-page{
+	margin: 0 auto;
+	border-bottom: 1px solid #FF0;
+	border-right: 1px solid #FF0;
+}
+.game-page div{
+	display: inline;
+	float: left;
+	background-color: #ADEB00;
+	border-top:1px solid #FF0;
+	border-left: 1px solid #FF0;
+	text-align: center;
+	font-size: 20px;
+	text-indent: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	color:rgba(255,255,255,0);
+}
+.game-page .fdiv{
+	text-indent: 0;
+	background-color: #fff;
+	color:rgba(0,0,0,1);
+}
+.game-page .boom{
+	background-image: url(../pic/mine.jpg);
+	background-size:100%;
+}
+.game-page .flag{
+	background-image: url(../pic/flag.jpg);
+	background-size:100%;
+}
